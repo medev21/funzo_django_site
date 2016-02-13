@@ -8,5 +8,5 @@ from . import views
 #url(what to look for, what function to grab, name of this url)
 
 urlpatterns = [
-    url(r'^$', views.index, name = 'index'), #this grabs the index from views.py
+    url(r'^index$', views.index, name = 'index'), #this grabs the index from views.py
 ]
